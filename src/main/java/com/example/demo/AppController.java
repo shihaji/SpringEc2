@@ -9,7 +9,7 @@ public class AppController {
 	@GetMapping("home")
 	public String home() {
 		
-		return "hello from elastic bean stack";
+		return "hi from elastic bean stack ";
 	}
 
 }
