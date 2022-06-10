@@ -11,5 +11,14 @@ public class AppController {
 		
 		return "hi from ebs ";
 	}
+	
+	
+	@GetMapping("home1")
+	public String home1() {
+		
+		return "hello from home1";
+	}
+	
+	
 
 }
